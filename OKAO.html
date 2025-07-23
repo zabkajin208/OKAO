@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="phone" content="+51 965 712 951">
+    <title>Okao - Energía Natural en Cada Sorbo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #8B4513 0%, #5D4037 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .zoomin-img {
+            transition: transform 0.3s ease;
+        }
+        .zoomin-img:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-brown-800">
+                    <span class="text-amber-900">OKAO</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#inicio" class="text-amber-900 hover:text-amber-700 transition">Inicio</a>
+                    <a href="#producto" class="text-gray-600 hover:text-amber-700 transition">Producto</a>
+                    <a href="#beneficios" class="text-gray-600 hover:text-amber-700 transition">Beneficios</a>
+                    <a href="#historia" class="text-gray-600 hover:text-amber-700 transition">Historia</a>
+                    <a href="#donde-comprar" class="text-gray-600 hover:text-amber-700 transition">Dónde Comprar</a>
+                    <a href="#contacto" class="text-gray-600 hover:text-amber-700 transition">Contacto</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-gradient text-white py-20 relative overflow-hidden">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Energía Natural<br>en Cada Sorbo</h1>
+                <p class="text-xl mb-8">La bebida innovadora hecha con cacao peruano y extracto de Ganoderma</p>
+                <a href="#producto" class="bg-white text-amber-900 hover:bg-amber-100 px-8 py-3 rounded-full font-bold transition duration-300 inline-block">Descubre Okao</a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1470d3e4-c412-4176-b9cf-4bc68ec19b05.png" alt="Botellas de Okao en un ambiente natural, mostrando el color rico del cacao con gotas de condensación" class="rounded-lg shadow-xl zoomin-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="producto" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-amber-900 mb-4">¿Qué es Okao?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Una bebida gasificada innovadora, saludable y deliciosa hecha con ingredientes 100% naturales</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-20 items-center">
+                <div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b8981bb1-486a-4ae4-9e1f-1964520290b5.png" alt="Close-up de una botella de Okao mostrando su etiqueta con ingredientes naturales" class="rounded-lg shadow-lg zoomin-img">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-amber-800 mb-4">Ingredientes Naturales</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-amber-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-leaf text-amber-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Cascarilla de Cacao Peruano</h4>
+                                <p class="text-gray-600">De las mejores plantaciones del Perú</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-amber-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-mountain text-amber-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Extracto de Ganoderma</h4>
+                                <p class="text-gray-600">Con propiedades antioxidantes</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-amber-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-tint text-amber-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Agua Gasificada Natural</h4>
+                                <p class="text-gray-600">Sin aditivos artificiales</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-amber-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-seedling text-amber-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Endulzado con Stevia</h4>
+                                <p class="text-gray-600">Alternativa saludable al azúcar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-amber-900 mb-4">Beneficios del Cacao</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">La magia del cacao peruano en una bebida refrescante</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition">
+                    <div class="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-amber-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Antioxidantes Poderosos</h3>
+                    <p class="text-gray-600">Los flavonoides del cacao protegen tus células contra el daño de los radicales libres.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition">
+                    <div class="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bolt text-amber-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Energía Sostenida</h3>
+                    <p class="text-gray-600">La teobromina presente en el cacao estimula tu cuerpo y mente sin el bajón del café.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition">
+                    <div class="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-smile text-amber-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Mejora el Ánimo</h3>
+                    <p class="text-gray-600">Promueve la producción de serotonina, proporcionando una sensación de bienestar natural.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition">
+                    <div class="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-apple-alt text-amber-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Rico en Minerales</h3>
+                    <p class="text-gray-600">Aporta magnesio, hierro y potasio esenciales para el buen funcionamiento del organismo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="historia" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-amber-900 mb-6">Nuestra Historia</h2>
+                    <div class="prose max-w-none">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Fundación Trilogía SAC</h3>
+                        <p class="text-gray-600 mb-4">Nacimos en Perú con la misión de promover productos naturales que combinan la sabiduría ancestral con innovación tecnológica, ofreciendo alternativas saludables y sostenibles.</p>
+                        
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Compromiso Social</h3>
+                        <p class="text-gray-600">Trabajamos directamente con cooperativas de agricultores locales de cacao, implementando prácticas de sostenibilidad y comercio justo. Cada botella de Okao contribuye al desarrollo de comunidades cacaoteras en el Perú.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5725f620-4c54-45bf-a130-b30d7bc1ce18.png" alt="Agricultores peruanos cosechando cacao orgánico en campo abierto bajo el sol" class="rounded-lg shadow-md h-full w-full object-cover zoomin-img">
+                    </div>
+                    <div class="grid grid-rows-2 gap-4">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a2108281-e295-4004-91ac-383cd437ecd4.png" alt="Proceso de selección manual de granos de cacao en mesa de madera rústica" class="rounded-lg shadow-md w-full h-full object-cover zoomin-img">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/69ad26a4-a376-476b-985b-4334bb832792.png" alt="Primer plano de manos sosteniendo granos de cacao tostados en un saco de yute" class="rounded-lg shadow-md w-full h-full object-cover zoomin-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Process Section -->
+            <div class="mt-20">
+                <h2 class="text-3xl font-bold text-amber-900 mb-12 text-center">Nuestro Proceso de Elaboración</h2>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="bg-amber-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-amber-700 font-bold text-xl">1</span>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Selección Rigurosa</h3>
+                        <p class="text-gray-600">Solo utilizamos granos de cacao orgánico de la más alta calidad.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-amber-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-amber-700 font-bold text-xl">2</span>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Tostado Artesanal</h3>
+                        <p class="text-gray-600">Técnicas tradicionales que conservan el sabor y nutrientes esenciales.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-amber-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-amber-700 font-bold text-xl">3</span>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Extracción Pura</h3>
+                        <p class="text-gray-600">Obtenemos el extracto de cacao más puro libre de impurezas.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-amber-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-amber-700 font-bold text-xl">4</span>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Mezcla y Envasado</h3>
+                        <p class="text-gray-600">Combinamos en perfecto balance con agua carbonatada y stevia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Where to Buy Section -->
+    <section id="donde-comprar" class="py-20 bg-amber-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-amber-900 mb-4">Dónde Encontrarnos</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Descubre dónde puedes disfrutar de Okao</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition">
+                    <div class="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-store text-amber-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Supermercados</h3>
+                    <p class="text-gray-600 mb-4">Disponible en las principales cadenas a nivel nacional</p>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>Wong</li>
+                        <li>Metro</li>
+                        <li>Plaza Vea</li>
+                        <li>Vivanda</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition">
+                    <div class="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-amber-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Tiendas Especializadas</h3>
+                    <p class="text-gray-600 mb-4">Encuéntranos en tiendas naturistas y orgánicas</p>
+                    <ul class="text-gray-600 space-y-1">
+                        <li>Bionatura</li>
+                        <li>EcoTienda</li>
+                        <li>BioMercado</li>
+                        <li>Tiendas de productos orgánicos</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md text-center card-hover transition">
+                    <div class="bg-amber-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-globe text-amber-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Compra Online</h3>
+                    <p class="text-gray-600 mb-4">Adquiere Okao desde la comodidad de tu hogar</p>
+                    <button class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-2 rounded-full transition">Visitar Tienda</button>
+                    <div class="mt-4">
+                        <p class="text-amber-800 font-medium">¡Próximamente en mercados internacionales a partir de 2028!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QR & Marketing Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-center">
+                    <div class="grid grid-cols-3 gap-4 justify-center mb-6">
+                        <div class="text-center">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.instagram.com/cacao.power?igsh=eWY5ZWR1bnMxbGQx" alt="QR de Instagram de Okao" class="mx-auto h-32 w-32 zoomin-img">
+                            <p class="text-sm mt-2 text-gray-600">Instagram</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.facebook.com/profile.php?id=61577198484392" alt="QR de Facebook de Okao" class="mx-auto h-32 w-32 zoomin-img">
+                            <p class="text-sm mt-2 text-gray-600">Facebook</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.tiktok.com/@cacao_power?_t=ZM-8y3y934obKA&_r=1" alt="QR de TikTok de Okao" class="mx-auto h-32 w-32 zoomin-img">
+                            <p class="text-sm mt-2 text-gray-600">TikTok</p>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Escanea y Síguenos</h3>
+                    <p class="text-gray-600 mb-6">Escanea los códigos QR para seguirnos en nuestras redes sociales y acceder a contenido exclusivo, promociones, recetas saludables y más información sobre Okao.</p>
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=61577198484392" target="_blank" class="text-amber-600 hover:text-amber-700 text-2xl"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/cacao.power?igsh=eWY5ZWR1bnMxbGQx" target="_blank" class="text-amber-600 hover:text-amber-700 text-2xl"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@cacao_power?_t=ZM-8y3y934obKA&_r=1" target="_blank" class="text-amber-600 hover:text-amber-700 text-2xl"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-amber-900 mb-6">Marketing y Presencia</h2>
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Presencia Digital</h3>
+                            <p class="text-gray-600">Seguimos activos en redes sociales compartiendo contenido sobre estilo de vida saludable, recetas y beneficios del cacao.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Eventos y Colaboraciones</h3>
+                            <p class="text-gray-600">Realizamos degustaciones y promociones con influencers del mundo de la salud, el bienestar y la gastronomía.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Participación en Ferias</h3>
+                            <p class="text-gray-600">Nos presentamos regularmente en ferias y congresos de alimentos saludables a nivel nacional e internacional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-amber-900 mb-4">Contáctanos</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Estamos aquí para responder todas tus preguntas</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Oficinas Centrales</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt text-amber-700"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium">Dirección:</p>
+                                    <p class="text-gray-600">Jr San Martin, Tingo Maria - Perú</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-phone-alt text-amber-700"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium">Teléfono:</p>
+                                    <p class="text-gray-600">+51 965 712 951</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-amber-100 p-2 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-amber-700"></i>
+                                </div>
+                                <div>
+                                    <p class="font-medium">Email:</p>
+                                    <p class="text-gray-600">info@okao.com.pe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-xl shadow-md mt-8">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Horario de Atención</h3>
+                        <p class="text-gray-600 mb-4">Lunes a Viernes: 9:00 am - 6:00 pm</p>
+                        <p class="text-gray-600">Sábados: 9:00 am - 1:00 pm</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Mándanos un mensaje</h3>
+                        <form class="space-y-4">
+                            <div>
+                                <label class="block text-gray-700 mb-2">Nombre completo</label>
+                                <input type="text" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2">Correo electrónico</label>
+                                <input type="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2">Asunto</label>
+                                <select class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                    <option>Consulta general</option>
+                                    <option>Distribución</option>
+                                    <option>Prensa</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2">Mensaje</label>
+                                <textarea rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
+                            </div>
+                            <button type="submit" class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-full font-bold transition duration-300 w-full">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                    
+                    <div class="bg-amber-100 p-6 rounded-xl shadow-md mt-8 flex items-center">
+                        <div class="bg-white p-4 rounded-full mr-4">
+                            <i class="fas fa-comment-dots text-amber-700 text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-1">Chat en Vivo</h3>
+                            <p class="text-gray-600">¿Tienes preguntas? ¡Estamos aquí para ayudarte!</p>
+                            <button class="text-amber-700 font-medium mt-2">Haz clic aquí para chatear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-amber-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">OKAO</h3>
+                    <p class="text-amber-100">Energía Natural en Cada Sorbo</p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=61577198484392" target="_blank" class="text-amber-100 hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/cacao.power?igsh=eWY5ZWR1bnMxbGQx" target="_blank" class="text-amber-100 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-amber-100 hover:text-white text-xl"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Producto</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#producto" class="text-amber-100 hover:text-white transition">Ingredientes</a></li>
+                        <li><a href="#beneficios" class="text-amber-100 hover:text-white transition">Beneficios</a></li>
+                        <li><a href="#" class="text-amber-100 hover:text-white transition">Información Nutricional</a></li>
+                        <li><a href="#" class="text-amber-100 hover:text-white transition">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Empresa</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#historia" class="text-amber-100 hover:text-white transition">Nuestra Historia</a></li>
+                        <li><a href="#" class="text-amber-100 hover:text-white transition">Trabaja con Nosotros</a></li>
+                        <li><a href="#" class="text-amber-100 hover:text-white transition">Sostenibilidad</a></li>
+                        <li><a href="#" class="text-amber-100 hover:text-white transition">Prensa</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-amber-100 hover:text-white transition">Términos y Condiciones</a></li>
+                        <li><a href="#" class="text-amber-100 hover:text-white transition">Política de Privacidad</a></li>
+                        <li><a href="#" class="text-amber-100 hover:text-white transition">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-amber-700 pt-8 text-center text-amber-100">
+                <p>© 2023 Okao - Fundación Trilogía SAC. Todos los derechos reservados.</p>
+                <p class="mt-2">Hecho con ♥ en Perú</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-amber-600 text-white p-3 rounded-full shadow-lg hover:bg-amber-700 transition hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Back to top button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
+        // Mobile menu toggle would go here
+    </script>
+</body>
+</html>
+
